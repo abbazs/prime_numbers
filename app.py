@@ -23,7 +23,7 @@ def prime_factors(num: int) -> list:
             return [i] + prime_factors(num // i)
     return [int(num)]
 
-@app.get("/is_prime/{num}")
+@app.get("/is_prime/{num}", description="Check if the given number is a prime number")
 def check_if_prime(num: int):
     return {"is_prime": is_prime(num)}
 
