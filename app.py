@@ -26,11 +26,11 @@ def prime_factors(num: int) -> list:
 @app.get("/is_prime/{num}", summary="Check if the given number is a prime number",  description="Check if the given number is a prime number")
 def check_if_prime(num: int):
     return {"is_prime": is_prime(num)}
-
-@app.get("/list_of_primes/{st}/{nd}")
+lsp="Get the prime numbers between the start and end numbers"
+@app.get("/list_of_primes/{st}/{nd}", summary=lsp, description=lsp)
 def get_list_of_primes(st: int, nd: int):
     return {"list_of_primes": list_of_primes(st, nd)}
-
-@app.get("/prime_factors/{num}")
+gpf="Find the prime factors of given number"
+@app.get("/prime_factors/{num}", summary=gpf, description=gpf)
 def get_prime_factors(num: int):
     return {"prime_factors": prime_factors(num)}
