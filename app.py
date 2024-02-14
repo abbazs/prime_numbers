@@ -1,35 +1,36 @@
 from fastapi import FastAPI
-from fastapi.responses import FileResponse
-
-from pydantic import BaseModel
 
 app = FastAPI()
 
+def is_prime(num: int) -> bool:
+    if num < 2:
+        return False
+    elif num == 2:
+        return True
+    elif num % 2 == 0:
+        return False
+    for i in range(3, int(num**0.5) + 1, 2):
+        if num % i == 0:
+            return False
+    return True
 
-class Item(BaseModel):
-    item_id: int
+def list_of_primes(st: int, nd: int) -> list:
+    return [i for i in range(st, nd+1) if is_prime(i)]
 
+def prime_factors(num: int) -> list:
+    for i in range(2, int(num**0.5) + 1):
+        if num % i == 0:
+            return [i] + prime_factors(num // i)
+    return [int(num)]
 
-@app.get("/")
-async def root():
-    return {"message": "Hello World"}
+@app.get("/is_prime/{num}")
+def check_if_prime(num: int):
+    return {"is_prime": is_prime(num)}
 
+@app.get("/list_of_primes/{st}/{nd}")
+def get_list_of_primes(st: int, nd: int):
+    return {"list_of_primes": list_of_primes(st, nd)}
 
-@app.get('/favicon.ico', include_in_schema=False)
-async def favicon():
-    return FileResponse('favicon.ico')
-
-
-@app.get("/item/{item_id}")
-async def read_item(item_id: int):
-    return {"item_id": item_id}
-
-
-@app.get("/items/")
-async def list_items():
-    return [{"item_id": 1, "name": "Foo"}, {"item_id": 2, "name": "Bar"}]
-
-
-@app.post("/items/")
-async def create_item(item: Item):
-    return item
+@app.get("/prime_factors/{num}")
+def get_prime_factors(num: int):
+    return {"prime_factors": prime_factors(num)}
