@@ -40,8 +40,7 @@ def read_trains(skip: int = 0, limit: int = 10, db: Session = Depends(get_db)):
     trains = db.query(models.Train).offset(skip).limit(limit).all()
     return trains
 
-
-@router.on_event(event_type="startup")
+@router.get("/init_db")
 def create_database():
     models.Base.metadata.create_all(bind=models.engine)
     models.add_trains_from_json("trains.json")
