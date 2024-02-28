@@ -1,8 +1,10 @@
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
 from typing import List
-from train_stations import models, schemas  # Adjust the import paths as necessary
-
+from train_stations import models, schemas
+import traceback
+import os
+import subprocess
 
 router = APIRouter(prefix="/trains", tags=["trains"])
 
@@ -17,8 +19,17 @@ def get_db():
 
 @router.get("/", response_model=List[schemas.Train])
 def read_trains(skip: int = 0, limit: int = 10, db: Session = Depends(get_db)):
-    trains = db.query(models.Train).offset(skip).limit(limit).all()
-    return trains
+    try:
+        trains = db.query(models.Train).offset(skip).limit(limit).all()
+        return trains
+    except Exception as e:
+        return {
+            "error": str(e),
+            "details": traceback.format_exc(),
+            "pwd": os.curdir,
+            "files": os.system("ls -lart"),
+        }
+
 
 @router.get("/init_db")
 def create_database():
