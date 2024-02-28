@@ -8,7 +8,7 @@
     <div class="container">
         <!-- Check if a number is prime -->
         <input type="number" min="1" x-model="num" placeholder="Enter a number" title="Enter a number">
-        <button @click="checkPrime"><span>Is prime?</span></button>
+        <button @click="checkPrime"><span>Is Prime?</span></button>
         <template x-if="isPrime !== null">
             <p :style="isPrime !== null ? (isPrime ? 'color: green;' : 'color: blue;') : ''"
                 x-text="isPrime ? 'Yes, it is prime.' : 'No, it is not prime.'"></p>
@@ -18,7 +18,7 @@
         <!-- List prime numbers -->
         <input type="number" min="1" x-model="start" placeholder="Start number" title="Start number">
         <input type="number" :min="start+1" x-model="end" placeholder="End number" title="End number">
-        <button @click="listPrimes"><span>List Primes</span></button>
+        <button @click="listPrimes"><span>Get Primes</span></button>
         <template x-if="primes.values.length > 0">
             <p>Primes: <span x-text="primes.values.join(', ')"></span></p>
         </template>
