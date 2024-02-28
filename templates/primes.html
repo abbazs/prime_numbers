@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block title %}Prime Numbers{% endblock %}
+
+{% block content %}
+<div x-data="primeChecker()" x-init="init()">
+    <h2>Prime Numbers</h2>
+    <div class="container">
+        <!-- Check if a number is prime -->
+        <input type="number" min="1" x-model="num" placeholder="Enter a number" title="Enter a number">
+        <button @click="checkPrime"><span>Is prime?</span></button>
+        <template x-if="isPrime !== null">
+            <p :style="isPrime !== null ? (isPrime ? 'color: green;' : 'color: blue;') : ''"
+                x-text="isPrime ? 'Yes, it is prime.' : 'No, it is not prime.'"></p>
+        </template>
+    </div>
+    <div class="container">
+        <!-- List prime numbers -->
+        <input type="number" x-model="start" placeholder="Start number" title="Start number">
+        <input type="number" x-model="end" placeholder="End number" title="End number">
+        <button @click="listPrimes"><span>List Primes</span></button>
+        <template x-if="primes.length > 0">
+            <p>Primes: <span x-text="primes.join(', ')"></span></p>
+        </template>
+    </div>
+    <div class="container">
+        <!-- Get prime factors -->
+        <input type="number" x-model="factorNum" placeholder="Enter a number for its prime factors"
+            title="Enter a number for its prime factors">
+        <button @click="getPrimeFactors"><span>Get Prime Factors</span></button>
+        <template x-if="primeFactors.length > 0">
+            <p>Prime Factors: <span x-text="primeFactors.join(', ')"></span></p>
+        </template>
+    </div>
+</div>
+
+<script>
+    function primeChecker() {
+        return {
+            route: "{{ route }}",
+            num: '',
+            start: '',
+            end: '',
+            factorNum: '',
+            isPrime: null,
+            primes: [],
+            primeFactors: [],
+            checkPrime() {
+                axios.get(`${this.route}/is_prime/${this.num}`)
+                    .then(response => {
+                        this.isPrime = response.data.is_prime;
+                    });
+            },
+            listPrimes() {
+                axios.get(`${this.route}/list_of_primes/${this.start}/${this.end}`)
+                    .then(response => {
+                        this.primes = response.data.list_of_primes;
+                    });
+            },
+            getPrimeFactors() {
+                axios.get(`${this.route}/prime_factors/${this.factorNum}`)
+                    .then(response => {
+                        this.primeFactors = response.data.prime_factors;
+                    });
+            },
+            init() {
+                // Initial setup or fetches if necessary
+            }
+        }
+    }
+</script>
+{% endblock %}
