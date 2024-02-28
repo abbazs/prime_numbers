@@ -1,0 +1,2122 @@
+{
+    "12221": {
+        "file": "Train_Wise35",
+        "stations": {
+            "Pune": {
+                "arr": "--",
+                "dep": "15:15",
+                "day": "1",
+                "dist": "0"
+            },
+            "Daund": {
+                "arr": "16:20",
+                "dep": "16:36",
+                "day": "1",
+                "dist": "76"
+            },
+            "Manmad": {
+                "arr": "20:31",
+                "dep": "20:33",
+                "day": "1",
+                "dist": "313"
+            },
+            "Bhusaval": {
+                "arr": "22:40",
+                "dep": "22:45",
+                "day": "1",
+                "dist": "497"
+            },
+            "Nagpur": {
+                "arr": "04:10",
+                "dep": "04:15",
+                "day": "2",
+                "dist": "889"
+            },
+            "Bilaspur": {
+                "arr": "09:56",
+                "dep": "10:06",
+                "day": "2",
+                "dist": "1302"
+            },
+            "Tatanagar": {
+                "arr": "15:56",
+                "dep": "16:06",
+                "day": "2",
+                "dist": "1771"
+            },
+            "Kolkata": {
+                "arr": "19:50",
+                "dep": "--",
+                "day": "2",
+                "dist": "2020"
+            }
+        },
+        "days": [
+            "M",
+            "Sa"
+        ]
+    },
+    "12239": {
+        "file": "Train_Wise26",
+        "stations": {
+            "Mumbai": {
+                "arr": "--",
+                "dep": "23:15",
+                "day": "1",
+                "dist": "0"
+            },
+            "Vadodara": {
+                "arr": "03:52",
+                "dep": "04:05",
+                "day": "2",
+                "dist": "392"
+            },
+            "Ratlam": {
+                "arr": "07:35",
+                "dep": "07:40",
+                "day": "2",
+                "dist": "653"
+            },
+            "Sawai Madhopur": {
+                "arr": "12:10",
+                "dep": "12:20",
+                "day": "2",
+                "dist": "1027"
+            },
+            "Jaipur": {
+                "arr": "14:35",
+                "dep": "--",
+                "day": "2",
+                "dist": "1159"
+            }
+        },
+        "days": [
+            "Tu",
+            "Su"
+        ]
+    },
+    "12298": {
+        "file": "Train_Wise37",
+        "stations": {
+            "Pune": {
+                "arr": "--",
+                "dep": "21:36",
+                "day": "1",
+                "dist": "0"
+            },
+            "Lonavla": {
+                "arr": "22:18",
+                "dep": "22:20",
+                "day": "1",
+                "dist": "64"
+            },
+            "Mumbai": {
+                "arr": "00:40",
+                "dep": "00:45",
+                "day": "2",
+                "dist": "191"
+            },
+            "Ahmedabad": {
+                "arr": "06:30",
+                "dep": "--",
+                "day": "2",
+                "dist": "635"
+            }
+        },
+        "days": [
+            "M",
+            "Th",
+            "Sa"
+        ]
+    },
+    "12227": {
+        "file": "Train_Wise25",
+        "stations": {
+            "Mumbai": {
+                "arr": "--",
+                "dep": "23:15",
+                "day": "1",
+                "dist": "0"
+            },
+            "Vadodara": {
+                "arr": "03:52",
+                "dep": "04:05",
+                "day": "2",
+                "dist": "392"
+            },
+            "Ratlam": {
+                "arr": "07:25",
+                "dep": "07:30",
+                "day": "2",
+                "dist": "653"
+            },
+            "Ujjain": {
+                "arr": "08:50",
+                "dep": "08:56",
+                "day": "2",
+                "dist": "750"
+            },
+            "Indore": {
+                "arr": "11:06",
+                "dep": "--",
+                "day": "2",
+                "dist": "829"
+            }
+        },
+        "days": [
+            "Th",
+            "Sa"
+        ]
+    },
+    "12262": {
+        "file": "Train_Wise16",
+        "stations": {
+            "Kolkata": {
+                "arr": "--",
+                "dep": "08:20",
+                "day": "1",
+                "dist": "0"
+            },
+            "Tatanagar": {
+                "arr": "11:33",
+                "dep": "11:43",
+                "day": "1",
+                "dist": "250"
+            },
+            "Bilaspur": {
+                "arr": "17:36",
+                "dep": "17:45",
+                "day": "1",
+                "dist": "720"
+            },
+            "Nagpur": {
+                "arr": "23:15",
+                "dep": "23:20",
+                "day": "1",
+                "dist": "1131"
+            },
+            "Bhusaval": {
+                "arr": "03:42",
+                "dep": "03:47",
+                "day": "2",
+                "dist": "1524"
+            },
+            "Igatpuri": {
+                "arr": "07:40",
+                "dep": "07:45",
+                "day": "2",
+                "dist": "1831"
+            },
+            "Mumbai": {
+                "arr": "10:31",
+                "dep": "--",
+                "day": "2",
+                "dist": "1968"
+            }
+        },
+        "days": [
+            "M",
+            "Tu",
+            "W",
+            "F"
+        ]
+    },
+    "12222": {
+        "file": "Train_Wise15",
+        "stations": {
+            "Kolkata": {
+                "arr": "--",
+                "dep": "08:20",
+                "day": "1",
+                "dist": "0"
+            },
+            "Tatanagar": {
+                "arr": "11:33",
+                "dep": "11:43",
+                "day": "1",
+                "dist": "250"
+            },
+            "Bilaspur": {
+                "arr": "17:36",
+                "dep": "17:45",
+                "day": "1",
+                "dist": "720"
+            },
+            "Nagpur": {
+                "arr": "23:15",
+                "dep": "23:20",
+                "day": "1",
+                "dist": "1131"
+            },
+            "Bhusaval": {
+                "arr": "03:42",
+                "dep": "03:47",
+                "day": "2",
+                "dist": "1524"
+            },
+            "Manmad": {
+                "arr": "06:00",
+                "dep": "06:04",
+                "day": "2",
+                "dist": "1708"
+            },
+            "Daund": {
+                "arr": "10:00",
+                "dep": "10:15",
+                "day": "2",
+                "dist": "1944"
+            },
+            "Pune": {
+                "arr": "11:45",
+                "dep": "--",
+                "day": "2",
+                "dist": "2020"
+            }
+        },
+        "days": [
+            "Th",
+            "Sa"
+        ]
+    },
+    "02202": {
+        "file": "Train_Wise1",
+        "stations": {
+            "Bhubaneswar": {
+                "arr": "--",
+                "dep": "20:15",
+                "day": "1",
+                "dist": "0"
+            },
+            "Kharagpur": {
+                "arr": "01:10",
+                "dep": "01:15",
+                "day": "2",
+                "dist": "387"
+            },
+            "Kolkata": {
+                "arr": "04:15",
+                "dep": "--",
+                "day": "2",
+                "dist": "522"
+            }
+        },
+        "days": [
+            "Tu",
+            "Th",
+            "Sa"
+        ]
+    },
+    "12264": {
+        "file": "Train_Wise12",
+        "stations": {
+            "New Delhi": {
+                "arr": "--",
+                "dep": "10:56",
+                "day": "1",
+                "dist": "0"
+            },
+            "Kota": {
+                "arr": "15:20",
+                "dep": "15:31",
+                "day": "1",
+                "dist": "458"
+            },
+            "Ratlam": {
+                "arr": "18:36",
+                "dep": "18:40",
+                "day": "1",
+                "dist": "724"
+            },
+            "Vadodara": {
+                "arr": "22:29",
+                "dep": "22:38",
+                "day": "1",
+                "dist": "986"
+            },
+            "Mumbai": {
+                "arr": "03:50",
+                "dep": "03:55",
+                "day": "2",
+                "dist": "1330"
+            },
+            "Lonavla": {
+                "arr": "06:04",
+                "dep": "06:08",
+                "day": "2",
+                "dist": "1456"
+            },
+            "Pune": {
+                "arr": "07:10",
+                "dep": "--",
+                "day": "2",
+                "dist": "1520"
+            }
+        },
+        "days": [
+            "M",
+            "Th"
+        ]
+    },
+    "12267": {
+        "file": "Train_Wise27",
+        "stations": {
+            "Mumbai": {
+                "arr": "--",
+                "dep": "23:25",
+                "day": "1",
+                "dist": "0"
+            },
+            "Ahmedabad": {
+                "arr": "05:55",
+                "dep": "06:15",
+                "day": "2",
+                "dist": "491"
+            },
+            "Surendranagar": {
+                "arr": "08:24",
+                "dep": "08:34",
+                "day": "2",
+                "dist": "622"
+            },
+            "Rajkot": {
+                "arr": "10:56",
+                "dep": "--",
+                "day": "2",
+                "dist": "738"
+            }
+        },
+        "days": [
+            "M",
+            "Tu",
+            "W",
+            "Th",
+            "F",
+            "Sa",
+            "Su"
+        ]
+    },
+    "02213": {
+        "file": "Train_Wise44",
+        "stations": {
+            "Kolkata": {
+                "arr": "--",
+                "dep": "22:00",
+                "day": "1",
+                "dist": "0"
+            },
+            "Asansol": {
+                "arr": "01:08",
+                "dep": "01:12",
+                "day": "2",
+                "dist": "215"
+            },
+            "Patna": {
+                "arr": "06:40",
+                "dep": "--",
+                "day": "2",
+                "dist": "546"
+            }
+        },
+        "days": [
+            "M",
+            "W",
+            "F"
+        ]
+    },
+    "02214": {
+        "file": "Train_Wise33",
+        "stations": {
+            "Patna": {
+                "arr": "--",
+                "dep": "20:40",
+                "day": "1",
+                "dist": "0"
+            },
+            "Asansol": {
+                "arr": "01:56",
+                "dep": "02:01",
+                "day": "2",
+                "dist": "332"
+            },
+            "Kolkata": {
+                "arr": "05:40",
+                "dep": "--",
+                "day": "2",
+                "dist": "546"
+            }
+        },
+        "days": [
+            "Tu",
+            "Th",
+            "Sa"
+        ]
+    },
+    "22209": {
+        "file": "Train_Wise28",
+        "stations": {
+            "Mumbai": {
+                "arr": "--",
+                "dep": "23:15",
+                "day": "1",
+                "dist": "0"
+            },
+            "Vadodara": {
+                "arr": "03:52",
+                "dep": "04:05",
+                "day": "2",
+                "dist": "392"
+            },
+            "Ratlam": {
+                "arr": "07:35",
+                "dep": "07:40",
+                "day": "2",
+                "dist": "653"
+            },
+            "Kota": {
+                "arr": "10:25",
+                "dep": "10:31",
+                "day": "2",
+                "dist": "920"
+            },
+            "New Delhi": {
+                "arr": "16:31",
+                "dep": "--",
+                "day": "2",
+                "dist": "1384"
+            }
+        },
+        "days": [
+            "M",
+            "F"
+        ]
+    },
+    "12259": {
+        "file": "Train_Wise40",
+        "stations": {
+            "Kolkata": {
+                "arr": "--",
+                "dep": "18:31",
+                "day": "1",
+                "dist": "0"
+            },
+            "Dhanbad": {
+                "arr": "21:52",
+                "dep": "21:56",
+                "day": "1",
+                "dist": "266"
+            },
+            "Varanasi": {
+                "arr": "02:20",
+                "dep": "02:30",
+                "day": "2",
+                "dist": "667"
+            },
+            "Kanpur": {
+                "arr": "06:25",
+                "dep": "06:30",
+                "day": "2",
+                "dist": "1014"
+            },
+            "New Delhi": {
+                "arr": "11:31",
+                "dep": "11:45",
+                "day": "2",
+                "dist": "1453"
+            },
+            "Loharu": {
+                "arr": "14:23",
+                "dep": "14:26",
+                "day": "2",
+                "dist": "1628"
+            },
+            "Sadulpur": {
+                "arr": "15:03",
+                "dep": "15:06",
+                "day": "2",
+                "dist": "1678"
+            },
+            "Churu": {
+                "arr": "16:06",
+                "dep": "16:08",
+                "day": "2",
+                "dist": "1736"
+            },
+            "Ratangarh": {
+                "arr": "17:00",
+                "dep": "17:02",
+                "day": "2",
+                "dist": "1779"
+            },
+            "Sri Dungargarah": {
+                "arr": "17:47",
+                "dep": "17:48",
+                "day": "2",
+                "dist": "1844"
+            },
+            "Bikaner": {
+                "arr": "19:15",
+                "dep": "--",
+                "day": "2",
+                "dist": "1916"
+            }
+        },
+        "days": [
+            "M",
+            "W",
+            "Th",
+            "Su"
+        ]
+    },
+    "02286": {
+        "file": "Train_Wise11",
+        "stations": {
+            "New Delhi": {
+                "arr": "--",
+                "dep": "15:45",
+                "day": "1",
+                "dist": "0"
+            },
+            "Jhansi": {
+                "arr": "20:22",
+                "dep": "20:27",
+                "day": "1",
+                "dist": "403"
+            },
+            "Bhopal": {
+                "arr": "00:01",
+                "dep": "00:06",
+                "day": "2",
+                "dist": "700"
+            },
+            "Nagpur": {
+                "arr": "05:15",
+                "dep": "05:20",
+                "day": "2",
+                "dist": "1083"
+            },
+            "Balharshah": {
+                "arr": "08:10",
+                "dep": "08:15",
+                "day": "2",
+                "dist": "1294"
+            },
+            "Secunderabad": {
+                "arr": "14:00",
+                "dep": "--",
+                "day": "2",
+                "dist": "1660"
+            }
+        },
+        "days": [
+            "M",
+            "F"
+        ]
+    },
+    "02245": {
+        "file": "Train_Wise14",
+        "stations": {
+            "Kolkata": {
+                "arr": "--",
+                "dep": "10:50",
+                "day": "1",
+                "dist": "0"
+            },
+            "Bhubaneswar": {
+                "arr": "16:50",
+                "dep": "17:00",
+                "day": "1",
+                "dist": "439"
+            },
+            "Vijayawada": {
+                "arr": "04:20",
+                "dep": "04:25",
+                "day": "2",
+                "dist": "1219"
+            },
+            "Renigunta": {
+                "arr": "10:10",
+                "dep": "10:15",
+                "day": "2",
+                "dist": "1595"
+            },
+            "Bengaluru": {
+                "arr": "16:00",
+                "dep": "--",
+                "day": "2",
+                "dist": "1946"
+            }
+        },
+        "days": [
+            "Tu",
+            "W",
+            "F",
+            "Sa",
+            "Su"
+        ]
+    },
+    "12293": {
+        "file": "Train_Wise23",
+        "stations": {
+            "Mumbai": {
+                "arr": "--",
+                "dep": "17:25",
+                "day": "1",
+                "dist": "0"
+            },
+            "Igatpuri": {
+                "arr": "19:25",
+                "dep": "19:31",
+                "day": "1",
+                "dist": "121"
+            },
+            "Bhusaval": {
+                "arr": "23:00",
+                "dep": "23:06",
+                "day": "1",
+                "dist": "429"
+            },
+            "Jabalpur": {
+                "arr": "05:50",
+                "dep": "06:00",
+                "day": "2",
+                "dist": "981"
+            },
+            "Satna": {
+                "arr": "08:31",
+                "dep": "08:40",
+                "day": "2",
+                "dist": "1170"
+            },
+            "Prayagraj": {
+                "arr": "12:45",
+                "dep": "--",
+                "day": "2",
+                "dist": "1348"
+            }
+        },
+        "days": [
+            "M",
+            "F"
+        ]
+    },
+    "12290": {
+        "file": "Train_Wise29",
+        "stations": {
+            "Nagpur": {
+                "arr": "--",
+                "dep": "20:40",
+                "day": "1",
+                "dist": "0"
+            },
+            "Bhusaval": {
+                "arr": "01:20",
+                "dep": "01:25",
+                "day": "2",
+                "dist": "393"
+            },
+            "Igatpuri": {
+                "arr": "05:10",
+                "dep": "05:15",
+                "day": "2",
+                "dist": "701"
+            },
+            "Mumbai": {
+                "arr": "08:06",
+                "dep": "--",
+                "day": "2",
+                "dist": "837"
+            }
+        },
+        "days": [
+            "M",
+            "Tu",
+            "W",
+            "Th",
+            "F",
+            "Sa",
+            "Su"
+        ]
+    },
+    "12219": {
+        "file": "Train_Wise21",
+        "stations": {
+            "Mumbai": {
+                "arr": "--",
+                "dep": "23:06",
+                "day": "1",
+                "dist": "0"
+            },
+            "Pune": {
+                "arr": "02:05",
+                "dep": "02:10",
+                "day": "2",
+                "dist": "176"
+            },
+            "Solapur": {
+                "arr": "05:57",
+                "dep": "06:00",
+                "day": "2",
+                "dist": "422"
+            },
+            "Secunderabad": {
+                "arr": "11:06",
+                "dep": "--",
+                "day": "2",
+                "dist": "773"
+            }
+        },
+        "days": [
+            "W",
+            "Sa"
+        ]
+    },
+    "02246": {
+        "file": "Train_Wise46",
+        "stations": {
+            "Bengaluru": {
+                "arr": "--",
+                "dep": "11:00",
+                "day": "1",
+                "dist": "0"
+            },
+            "Renigunta": {
+                "arr": "16:50",
+                "dep": "17:00",
+                "day": "1",
+                "dist": "352"
+            },
+            "Vijayawada": {
+                "arr": "22:20",
+                "dep": "22:31",
+                "day": "1",
+                "dist": "728"
+            },
+            "Vizianagram": {
+                "arr": "04:30",
+                "dep": "04:40",
+                "day": "2",
+                "dist": "1126"
+            },
+            "Bhubaneswar": {
+                "arr": "09:50",
+                "dep": "10:00",
+                "day": "2",
+                "dist": "1507"
+            },
+            "Kolkata": {
+                "arr": "16:45",
+                "dep": "--",
+                "day": "2",
+                "dist": "1946"
+            }
+        },
+        "days": [
+            "M",
+            "Tu",
+            "Th",
+            "F",
+            "Su"
+        ]
+    },
+    "12263": {
+        "file": "Train_Wise36",
+        "stations": {
+            "Pune": {
+                "arr": "--",
+                "dep": "11:10",
+                "day": "1",
+                "dist": "0"
+            },
+            "Lonavla": {
+                "arr": "11:58",
+                "dep": "12:00",
+                "day": "1",
+                "dist": "64"
+            },
+            "Mumbai": {
+                "arr": "14:35",
+                "dep": "14:40",
+                "day": "1",
+                "dist": "191"
+            },
+            "Vadodara": {
+                "arr": "18:34",
+                "dep": "18:45",
+                "day": "1",
+                "dist": "535"
+            },
+            "Ratlam": {
+                "arr": "22:11",
+                "dep": "22:15",
+                "day": "1",
+                "dist": "797"
+            },
+            "Kota": {
+                "arr": "01:00",
+                "dep": "01:10",
+                "day": "2",
+                "dist": "1063"
+            },
+            "New Delhi": {
+                "arr": "06:55",
+                "dep": "--",
+                "day": "2",
+                "dist": "1520"
+            }
+        },
+        "days": [
+            "Tu",
+            "F"
+        ]
+    },
+    "12266": {
+        "file": "Train_Wise20",
+        "stations": {
+            "Jammu": {
+                "arr": "--",
+                "dep": "19:20",
+                "day": "1",
+                "dist": "0"
+            },
+            "Ludhiana": {
+                "arr": "23:15",
+                "dep": "23:25",
+                "day": "1",
+                "dist": "265"
+            },
+            "New Delhi": {
+                "arr": "04:20",
+                "dep": "--",
+                "day": "2",
+                "dist": "578"
+            }
+        },
+        "days": [
+            "M",
+            "W",
+            "Sa"
+        ]
+    },
+    "12260": {
+        "file": "Train_Wise3",
+        "stations": {
+            "Bikaner": {
+                "arr": "--",
+                "dep": "12:15",
+                "day": "1",
+                "dist": "0"
+            },
+            "Sri Dungargarah": {
+                "arr": "13:09",
+                "dep": "13:10",
+                "day": "1",
+                "dist": "74"
+            },
+            "Ratangarh": {
+                "arr": "13:50",
+                "dep": "13:52",
+                "day": "1",
+                "dist": "138"
+            },
+            "Churu": {
+                "arr": "14:36",
+                "dep": "14:40",
+                "day": "1",
+                "dist": "181"
+            },
+            "Sadulpur": {
+                "arr": "15:25",
+                "dep": "15:27",
+                "day": "1",
+                "dist": "238"
+            },
+            "Loharu": {
+                "arr": "16:08",
+                "dep": "16:11",
+                "day": "1",
+                "dist": "288"
+            },
+            "New Delhi": {
+                "arr": "19:15",
+                "dep": "19:40",
+                "day": "1",
+                "dist": "463"
+            },
+            "Kanpur": {
+                "arr": "00:29",
+                "dep": "00:34",
+                "day": "2",
+                "dist": "902"
+            },
+            "Varanasi": {
+                "arr": "04:33",
+                "dep": "04:43",
+                "day": "2",
+                "dist": "1249"
+            },
+            "Dhanbad": {
+                "arr": "08:58",
+                "dep": "09:03",
+                "day": "2",
+                "dist": "1651"
+            },
+            "Kolkata": {
+                "arr": "12:45",
+                "dep": "--",
+                "day": "2",
+                "dist": "1916"
+            }
+        },
+        "days": [
+            "M",
+            "Tu",
+            "Th",
+            "F"
+        ]
+    },
+    "12269": {
+        "file": "Train_Wise24",
+        "stations": {
+            "Chennai": {
+                "arr": "--",
+                "dep": "06:40",
+                "day": "1",
+                "dist": "0"
+            },
+            "Vijayawada": {
+                "arr": "12:20",
+                "dep": "12:31",
+                "day": "1",
+                "dist": "431"
+            },
+            "Balharshah": {
+                "arr": "18:06",
+                "dep": "18:11",
+                "day": "1",
+                "dist": "880"
+            },
+            "Nagpur": {
+                "arr": "21:00",
+                "dep": "21:06",
+                "day": "1",
+                "dist": "1091"
+            },
+            "Bhopal": {
+                "arr": "02:18",
+                "dep": "02:20",
+                "day": "2",
+                "dist": "1481"
+            },
+            "Jhansi": {
+                "arr": "05:30",
+                "dep": "05:35",
+                "day": "2",
+                "dist": "1778"
+            },
+            "Gwalior": {
+                "arr": "06:51",
+                "dep": "06:53",
+                "day": "2",
+                "dist": "1875"
+            },
+            "New Delhi": {
+                "arr": "10:40",
+                "dep": "--",
+                "day": "2",
+                "dist": "2180"
+            }
+        },
+        "days": [
+            "M",
+            "F"
+        ]
+    },
+    "12265": {
+        "file": "Train_Wise7",
+        "stations": {
+            "New Delhi": {
+                "arr": "--",
+                "dep": "22:15",
+                "day": "1",
+                "dist": "0"
+            },
+            "Ludhiana": {
+                "arr": "02:45",
+                "dep": "02:55",
+                "day": "2",
+                "dist": "314"
+            },
+            "Jammu": {
+                "arr": "07:25",
+                "dep": "--",
+                "day": "2",
+                "dist": "578"
+            }
+        },
+        "days": [
+            "Tu",
+            "F",
+            "Su"
+        ]
+    },
+    "12281": {
+        "file": "Train_Wise2",
+        "stations": {
+            "Bhubaneswar": {
+                "arr": "--",
+                "dep": "07:40",
+                "day": "1",
+                "dist": "0"
+            },
+            "Balasore": {
+                "arr": "10:44",
+                "dep": "10:49",
+                "day": "1",
+                "dist": "206"
+            },
+            "Adra": {
+                "arr": "14:56",
+                "dep": "15:00",
+                "day": "1",
+                "dist": "496"
+            },
+            "Varanasi": {
+                "arr": "20:45",
+                "dep": "20:56",
+                "day": "1",
+                "dist": "964"
+            },
+            "Kanpur": {
+                "arr": "00:50",
+                "dep": "00:55",
+                "day": "2",
+                "dist": "1311"
+            },
+            "New Delhi": {
+                "arr": "06:25",
+                "dep": "--",
+                "day": "2",
+                "dist": "1750"
+            }
+        },
+        "days": [
+            "W"
+        ]
+    },
+    "12289": {
+        "file": "Train_Wise5",
+        "stations": {
+            "Mumbai": {
+                "arr": "--",
+                "dep": "20:15",
+                "day": "1",
+                "dist": "0"
+            },
+            "Igatpuri": {
+                "arr": "22:25",
+                "dep": "22:31",
+                "day": "1",
+                "dist": "137"
+            },
+            "Bhusaval": {
+                "arr": "02:00",
+                "dep": "02:05",
+                "day": "2",
+                "dist": "445"
+            },
+            "Nagpur": {
+                "arr": "07:20",
+                "dep": "--",
+                "day": "2",
+                "dist": "837"
+            }
+        },
+        "days": [
+            "M",
+            "Tu",
+            "W",
+            "Th",
+            "F",
+            "Sa",
+            "Su"
+        ]
+    },
+    "02201": {
+        "file": "Train_Wise39",
+        "stations": {
+            "Kolkata": {
+                "arr": "--",
+                "dep": "20:00",
+                "day": "1",
+                "dist": "0"
+            },
+            "Kharagpur": {
+                "arr": "22:15",
+                "dep": "22:20",
+                "day": "1",
+                "dist": "136"
+            },
+            "Bhubaneswar": {
+                "arr": "03:30",
+                "dep": "--",
+                "day": "2",
+                "dist": "459"
+            }
+        },
+        "days": [
+            "M",
+            "W",
+            "F"
+        ]
+    },
+    "12270": {
+        "file": "Train_Wise13",
+        "stations": {
+            "New Delhi": {
+                "arr": "--",
+                "dep": "15:45",
+                "day": "1",
+                "dist": "0"
+            },
+            "Gwalior": {
+                "arr": "19:09",
+                "dep": "19:11",
+                "day": "1",
+                "dist": "306"
+            },
+            "Jhansi": {
+                "arr": "20:22",
+                "dep": "20:27",
+                "day": "1",
+                "dist": "403"
+            },
+            "Bhopal": {
+                "arr": "23:59",
+                "dep": "00:04",
+                "day": "2",
+                "dist": "700"
+            },
+            "Nagpur": {
+                "arr": "05:15",
+                "dep": "05:20",
+                "day": "2",
+                "dist": "1083"
+            },
+            "Balharshah": {
+                "arr": "08:10",
+                "dep": "08:15",
+                "day": "2",
+                "dist": "1294"
+            },
+            "Vijayawada": {
+                "arr": "14:20",
+                "dep": "14:25",
+                "day": "2",
+                "dist": "1745"
+            },
+            "Chennai": {
+                "arr": "20:40",
+                "dep": "--",
+                "day": "2",
+                "dist": "2175"
+            }
+        },
+        "days": [
+            "Tu",
+            "Sa"
+        ]
+    },
+    "12240": {
+        "file": "Train_Wise19",
+        "stations": {
+            "Jaipur": {
+                "arr": "--",
+                "dep": "19:11",
+                "day": "1",
+                "dist": "0"
+            },
+            "Sawai Madhopur": {
+                "arr": "20:56",
+                "dep": "21:06",
+                "day": "1",
+                "dist": "132"
+            },
+            "Ratlam": {
+                "arr": "01:50",
+                "dep": "01:55",
+                "day": "2",
+                "dist": "506"
+            },
+            "Vadodara": {
+                "arr": "05:20",
+                "dep": "05:30",
+                "day": "2",
+                "dist": "767"
+            },
+            "Mumbai": {
+                "arr": "10:50",
+                "dep": "--",
+                "day": "2",
+                "dist": "1159"
+            }
+        },
+        "days": [
+            "Tu",
+            "Th"
+        ]
+    },
+    "12223": {
+        "file": "Train_Wise22",
+        "stations": {
+            "Mumbai": {
+                "arr": "--",
+                "dep": "20:50",
+                "day": "1",
+                "dist": "0"
+            },
+            "Ratnagiri": {
+                "arr": "02:50",
+                "dep": "02:55",
+                "day": "2",
+                "dist": "415"
+            },
+            "Madgaon": {
+                "arr": "07:10",
+                "dep": "07:20",
+                "day": "2",
+                "dist": "750"
+            },
+            "Mangalore": {
+                "arr": "12:10",
+                "dep": "12:20",
+                "day": "2",
+                "dist": "1180"
+            },
+            "Kozhikkode": {
+                "arr": "15:23",
+                "dep": "15:25",
+                "day": "2",
+                "dist": "1406"
+            },
+            "Ernakulam": {
+                "arr": "20:15",
+                "dep": "--",
+                "day": "2",
+                "dist": "1599"
+            }
+        },
+        "days": [
+            "Tu",
+            "Sa"
+        ]
+    },
+    "12282": {
+        "file": "Train_Wise31",
+        "stations": {
+            "New Delhi": {
+                "arr": "--",
+                "dep": "12:56",
+                "day": "1",
+                "dist": "0"
+            },
+            "Kanpur": {
+                "arr": "17:48",
+                "dep": "17:54",
+                "day": "1",
+                "dist": "440"
+            },
+            "Varanasi": {
+                "arr": "21:50",
+                "dep": "22:00",
+                "day": "1",
+                "dist": "786"
+            },
+            "Adra": {
+                "arr": "03:40",
+                "dep": "03:50",
+                "day": "2",
+                "dist": "1232"
+            },
+            "Balasore": {
+                "arr": "07:33",
+                "dep": "07:38",
+                "day": "2",
+                "dist": "1522"
+            },
+            "Bhubaneswar": {
+                "arr": "11:15",
+                "dep": "--",
+                "day": "2",
+                "dist": "1727"
+            }
+        },
+        "days": [
+            "Th"
+        ]
+    },
+    "22210": {
+        "file": "Train_Wise32",
+        "stations": {
+            "New Delhi": {
+                "arr": "--",
+                "dep": "23:25",
+                "day": "1",
+                "dist": "0"
+            },
+            "Kota": {
+                "arr": "04:15",
+                "dep": "04:25",
+                "day": "2",
+                "dist": "465"
+            },
+            "Ratlam": {
+                "arr": "07:30",
+                "dep": "07:35",
+                "day": "2",
+                "dist": "731"
+            },
+            "Vadodara": {
+                "arr": "11:10",
+                "dep": "11:20",
+                "day": "2",
+                "dist": "993"
+            },
+            "Mumbai": {
+                "arr": "16:15",
+                "dep": "--",
+                "day": "2",
+                "dist": "1384"
+            }
+        },
+        "days": [
+            "Tu",
+            "Sa"
+        ]
+    },
+    "02285": {
+        "file": "Train_Wise41",
+        "stations": {
+            "Secunderabad": {
+                "arr": "--",
+                "dep": "13:10",
+                "day": "1",
+                "dist": "0"
+            },
+            "Balharshah": {
+                "arr": "18:06",
+                "dep": "18:11",
+                "day": "1",
+                "dist": "367"
+            },
+            "Nagpur": {
+                "arr": "21:00",
+                "dep": "21:06",
+                "day": "1",
+                "dist": "578"
+            },
+            "Bhopal": {
+                "arr": "02:15",
+                "dep": "02:20",
+                "day": "2",
+                "dist": "967"
+            },
+            "Jhansi": {
+                "arr": "05:30",
+                "dep": "05:35",
+                "day": "2",
+                "dist": "1264"
+            },
+            "New Delhi": {
+                "arr": "10:40",
+                "dep": "--",
+                "day": "2",
+                "dist": "1667"
+            }
+        },
+        "days": [
+            "Th",
+            "Su"
+        ]
+    },
+    "12273": {
+        "file": "Train_Wise17",
+        "stations": {
+            "Kolkata": {
+                "arr": "--",
+                "dep": "08:35",
+                "day": "1",
+                "dist": "0"
+            },
+            "Asansol": {
+                "arr": "10:56",
+                "dep": "11:00",
+                "day": "1",
+                "dist": "200"
+            },
+            "Jasidih": {
+                "arr": "12:25",
+                "dep": "12:27",
+                "day": "1",
+                "dist": "311"
+            },
+            "Patna": {
+                "arr": "16:20",
+                "dep": "16:31",
+                "day": "1",
+                "dist": "532"
+            },
+            "Varanasi": {
+                "arr": "20:13",
+                "dep": "20:23",
+                "day": "1",
+                "dist": "744"
+            },
+            "Kanpur": {
+                "arr": "00:40",
+                "dep": "00:45",
+                "day": "2",
+                "dist": "1090"
+            },
+            "New Delhi": {
+                "arr": "06:25",
+                "dep": "--",
+                "day": "2",
+                "dist": "1529"
+            }
+        },
+        "days": [
+            "M",
+            "F"
+        ]
+    },
+    "12297": {
+        "file": "Train_Wise48",
+        "stations": {
+            "Ahmedabad": {
+                "arr": "--",
+                "dep": "22:25",
+                "day": "1",
+                "dist": "0"
+            },
+            "Mumbai": {
+                "arr": "03:50",
+                "dep": "03:55",
+                "day": "2",
+                "dist": "444"
+            },
+            "Lonavla": {
+                "arr": "06:05",
+                "dep": "06:07",
+                "day": "2",
+                "dist": "567"
+            },
+            "Pune": {
+                "arr": "07:10",
+                "dep": "--",
+                "day": "2",
+                "dist": "631"
+            }
+        },
+        "days": [
+            "M",
+            "Th",
+            "Su"
+        ]
+    },
+    "12224": {
+        "file": "Train_Wise9",
+        "stations": {
+            "Ernakulam": {
+                "arr": "--",
+                "dep": "23:25",
+                "day": "1",
+                "dist": "0"
+            },
+            "Kozhikkode": {
+                "arr": "02:47",
+                "dep": "02:50",
+                "day": "2",
+                "dist": "193"
+            },
+            "Mangalore": {
+                "arr": "06:10",
+                "dep": "06:20",
+                "day": "2",
+                "dist": "419"
+            },
+            "Madgaon": {
+                "arr": "12:50",
+                "dep": "13:00",
+                "day": "2",
+                "dist": "850"
+            },
+            "Ratnagiri": {
+                "arr": "17:11",
+                "dep": "17:15",
+                "day": "2",
+                "dist": "1184"
+            },
+            "Mumbai": {
+                "arr": "23:56",
+                "dep": "--",
+                "day": "2",
+                "dist": "1599"
+            }
+        },
+        "days": [
+            "W",
+            "Su"
+        ]
+    },
+    "12214": {
+        "file": "Train_Wise6",
+        "stations": {
+            "New Delhi": {
+                "arr": "--",
+                "dep": "23:00",
+                "day": "1",
+                "dist": "0"
+            },
+            "Jhansi": {
+                "arr": "04:20",
+                "dep": "04:25",
+                "day": "2",
+                "dist": "423"
+            },
+            "Bhopal": {
+                "arr": "08:20",
+                "dep": "08:25",
+                "day": "2",
+                "dist": "720"
+            },
+            "Balharshah": {
+                "arr": "16:56",
+                "dep": "17:00",
+                "day": "2",
+                "dist": "1314"
+            },
+            "Secunderabad": {
+                "arr": "21:15",
+                "dep": "21:31",
+                "day": "2",
+                "dist": "1680"
+            },
+            "Guntakal": {
+                "arr": "02:58",
+                "dep": "03:00",
+                "day": "3",
+                "dist": "2091"
+            },
+            "Bengaluru": {
+                "arr": "07:55",
+                "dep": "--",
+                "day": "3",
+                "dist": "2367"
+            }
+        },
+        "days": [
+            "M"
+        ]
+    },
+    "12274": {
+        "file": "Train_Wise30",
+        "stations": {
+            "New Delhi": {
+                "arr": "--",
+                "dep": "12:56",
+                "day": "1",
+                "dist": "0"
+            },
+            "Kanpur": {
+                "arr": "17:48",
+                "dep": "17:54",
+                "day": "1",
+                "dist": "440"
+            },
+            "Varanasi": {
+                "arr": "22:11",
+                "dep": "22:20",
+                "day": "1",
+                "dist": "786"
+            },
+            "Patna": {
+                "arr": "01:10",
+                "dep": "01:20",
+                "day": "2",
+                "dist": "998"
+            },
+            "Jasidih": {
+                "arr": "05:06",
+                "dep": "05:09",
+                "day": "2",
+                "dist": "1219"
+            },
+            "Asansol": {
+                "arr": "07:35",
+                "dep": "07:40",
+                "day": "2",
+                "dist": "1330"
+            },
+            "Kolkata": {
+                "arr": "10:40",
+                "dep": "--",
+                "day": "2",
+                "dist": "1529"
+            }
+        },
+        "days": [
+            "Tu",
+            "Sa"
+        ]
+    },
+    "12213": {
+        "file": "Train_Wise47",
+        "stations": {
+            "Bengaluru": {
+                "arr": "--",
+                "dep": "23:40",
+                "day": "1",
+                "dist": "0"
+            },
+            "Guntakal": {
+                "arr": "03:45",
+                "dep": "03:50",
+                "day": "2",
+                "dist": "276"
+            },
+            "Secunderabad": {
+                "arr": "08:56",
+                "dep": "09:10",
+                "day": "2",
+                "dist": "688"
+            },
+            "Balharshah": {
+                "arr": "13:31",
+                "dep": "13:35",
+                "day": "2",
+                "dist": "1054"
+            },
+            "Bhopal": {
+                "arr": "21:20",
+                "dep": "21:25",
+                "day": "2",
+                "dist": "1655"
+            },
+            "Jhansi": {
+                "arr": "01:15",
+                "dep": "01:20",
+                "day": "3",
+                "dist": "1952"
+            },
+            "New Delhi": {
+                "arr": "07:00",
+                "dep": "--",
+                "day": "3",
+                "dist": "2374"
+            }
+        },
+        "days": [
+            "Sa"
+        ]
+    },
+    "22204": {
+        "file": "Train_Wise43",
+        "stations": {
+            "Secunderabad": {
+                "arr": "--",
+                "dep": "20:15",
+                "day": "1",
+                "dist": "0"
+            },
+            "Vijayawada": {
+                "arr": "01:05",
+                "dep": "01:15",
+                "day": "2",
+                "dist": "350"
+            },
+            "Visakhapatnam": {
+                "arr": "06:30",
+                "dep": "--",
+                "day": "2",
+                "dist": "699"
+            }
+        },
+        "days": [
+            "M",
+            "W",
+            "Sa"
+        ]
+    },
+    "12220": {
+        "file": "Train_Wise42",
+        "stations": {
+            "Secunderabad": {
+                "arr": "--",
+                "dep": "23:06",
+                "day": "1",
+                "dist": "0"
+            },
+            "Solapur": {
+                "arr": "03:57",
+                "dep": "04:00",
+                "day": "2",
+                "dist": "334"
+            },
+            "Pune": {
+                "arr": "07:50",
+                "dep": "07:55",
+                "day": "2",
+                "dist": "597"
+            },
+            "Mumbai": {
+                "arr": "11:06",
+                "dep": "--",
+                "day": "2",
+                "dist": "773"
+            }
+        },
+        "days": [
+            "Tu",
+            "F"
+        ]
+    },
+    "12228": {
+        "file": "Train_Wise18",
+        "stations": {
+            "Indore": {
+                "arr": "--",
+                "dep": "23:00",
+                "day": "1",
+                "dist": "0"
+            },
+            "Ujjain": {
+                "arr": "00:15",
+                "dep": "00:20",
+                "day": "2",
+                "dist": "80"
+            },
+            "Ratlam": {
+                "arr": "01:50",
+                "dep": "01:55",
+                "day": "2",
+                "dist": "176"
+            },
+            "Vadodara": {
+                "arr": "05:20",
+                "dep": "05:30",
+                "day": "2",
+                "dist": "438"
+            },
+            "Mumbai": {
+                "arr": "10:50",
+                "dep": "--",
+                "day": "2",
+                "dist": "829"
+            }
+        },
+        "days": [
+            "F",
+            "Su"
+        ]
+    },
+    "02283": {
+        "file": "Train_Wise8",
+        "stations": {
+            "Ernakulam": {
+                "arr": "--",
+                "dep": "23:25",
+                "day": "1",
+                "dist": "0"
+            },
+            "Kozhikkode": {
+                "arr": "02:47",
+                "dep": "02:50",
+                "day": "2",
+                "dist": "193"
+            },
+            "Mangalore": {
+                "arr": "06:10",
+                "dep": "06:20",
+                "day": "2",
+                "dist": "419"
+            },
+            "Madgaon": {
+                "arr": "12:50",
+                "dep": "13:00",
+                "day": "2",
+                "dist": "850"
+            },
+            "Ratnagiri": {
+                "arr": "17:11",
+                "dep": "17:15",
+                "day": "2",
+                "dist": "1184"
+            },
+            "Mumbai": {
+                "arr": "22:40",
+                "dep": "22:45",
+                "day": "2",
+                "dist": "1547"
+            },
+            "Vadodara": {
+                "arr": "05:13",
+                "dep": "05:31",
+                "day": "3",
+                "dist": "1958"
+            },
+            "Ratlam": {
+                "arr": "09:10",
+                "dep": "09:15",
+                "day": "3",
+                "dist": "2219"
+            },
+            "Kota": {
+                "arr": "12:50",
+                "dep": "12:56",
+                "day": "3",
+                "dist": "2486"
+            },
+            "New Delhi": {
+                "arr": "19:40",
+                "dep": "--",
+                "day": "3",
+                "dist": "2943"
+            }
+        },
+        "days": [
+            "Tu"
+        ]
+    },
+    "12268": {
+        "file": "Train_Wise38",
+        "stations": {
+            "Rajkot": {
+                "arr": "--",
+                "dep": "19:06",
+                "day": "1",
+                "dist": "0"
+            },
+            "Surendranagar": {
+                "arr": "20:38",
+                "dep": "20:47",
+                "day": "1",
+                "dist": "117"
+            },
+            "Ahmedabad": {
+                "arr": "23:15",
+                "dep": "23:36",
+                "day": "1",
+                "dist": "247"
+            },
+            "Mumbai": {
+                "arr": "06:00",
+                "dep": "--",
+                "day": "2",
+                "dist": "738"
+            }
+        },
+        "days": [
+            "M",
+            "Tu",
+            "W",
+            "Th",
+            "F",
+            "Sa",
+            "Su"
+        ]
+    },
+    "12294": {
+        "file": "Train_Wise34",
+        "stations": {
+            "Prayagraj": {
+                "arr": "--",
+                "dep": "19:20",
+                "day": "1",
+                "dist": "0"
+            },
+            "Satna": {
+                "arr": "22:00",
+                "dep": "22:11",
+                "day": "1",
+                "dist": "178"
+            },
+            "Jabalpur": {
+                "arr": "00:35",
+                "dep": "00:45",
+                "day": "2",
+                "dist": "367"
+            },
+            "Bhusaval": {
+                "arr": "08:56",
+                "dep": "09:00",
+                "day": "2",
+                "dist": "919"
+            },
+            "Igatpuri": {
+                "arr": "12:31",
+                "dep": "12:35",
+                "day": "2",
+                "dist": "1227"
+            },
+            "Mumbai": {
+                "arr": "14:56",
+                "dep": "--",
+                "day": "2",
+                "dist": "1348"
+            }
+        },
+        "days": [
+            "Tu",
+            "Sa"
+        ]
+    },
+    "22203": {
+        "file": "Train_Wise45",
+        "stations": {
+            "Visakhapatnam": {
+                "arr": "--",
+                "dep": "19:45",
+                "day": "1",
+                "dist": "0"
+            },
+            "Vijayawada": {
+                "arr": "00:40",
+                "dep": "00:55",
+                "day": "2",
+                "dist": "350"
+            },
+            "Secunderabad": {
+                "arr": "06:15",
+                "dep": "--",
+                "day": "2",
+                "dist": "699"
+            }
+        },
+        "days": [
+            "Tu",
+            "Th",
+            "Su"
+        ]
+    },
+    "12261": {
+        "file": "Train_Wise4",
+        "stations": {
+            "Mumbai": {
+                "arr": "--",
+                "dep": "17:15",
+                "day": "1",
+                "dist": "0"
+            },
+            "Igatpuri": {
+                "arr": "19:25",
+                "dep": "19:31",
+                "day": "1",
+                "dist": "137"
+            },
+            "Bhusaval": {
+                "arr": "23:00",
+                "dep": "23:06",
+                "day": "1",
+                "dist": "445"
+            },
+            "Nagpur": {
+                "arr": "04:10",
+                "dep": "04:15",
+                "day": "2",
+                "dist": "837"
+            },
+            "Bilaspur": {
+                "arr": "09:56",
+                "dep": "10:06",
+                "day": "2",
+                "dist": "1250"
+            },
+            "Tatanagar": {
+                "arr": "15:56",
+                "dep": "16:06",
+                "day": "2",
+                "dist": "1719"
+            },
+            "Kolkata": {
+                "arr": "19:50",
+                "dep": "--",
+                "day": "2",
+                "dist": "1968"
+            }
+        },
+        "days": [
+            "Tu",
+            "W",
+            "Th",
+            "Su"
+        ]
+    },
+    "02284": {
+        "file": "Train_Wise10",
+        "stations": {
+            "New Delhi": {
+                "arr": "--",
+                "dep": "21:36",
+                "day": "1",
+                "dist": "0"
+            },
+            "Kota": {
+                "arr": "02:55",
+                "dep": "03:05",
+                "day": "2",
+                "dist": "458"
+            },
+            "Ratlam": {
+                "arr": "07:05",
+                "dep": "07:10",
+                "day": "2",
+                "dist": "724"
+            },
+            "Vadodara": {
+                "arr": "11:01",
+                "dep": "11:20",
+                "day": "2",
+                "dist": "986"
+            },
+            "Mumbai": {
+                "arr": "17:56",
+                "dep": "18:00",
+                "day": "2",
+                "dist": "1397"
+            },
+            "Ratnagiri": {
+                "arr": "23:20",
+                "dep": "23:25",
+                "day": "2",
+                "dist": "1759"
+            },
+            "Madgaon": {
+                "arr": "04:25",
+                "dep": "04:35",
+                "day": "3",
+                "dist": "2094"
+            },
+            "Mangalore": {
+                "arr": "10:15",
+                "dep": "10:25",
+                "day": "3",
+                "dist": "2524"
+            },
+            "Kozhikkode": {
+                "arr": "13:27",
+                "dep": "13:31",
+                "day": "3",
+                "dist": "2750"
+            },
+            "Ernakulam": {
+                "arr": "18:20",
+                "dep": "--",
+                "day": "3",
+                "dist": "2943"
+            }
+        },
+        "days": [
+            "Sa"
+        ]
+    }
+}

@@ -4,6 +4,7 @@ from starlette.requests import Request
 from starlette.templating import Jinja2Templates
 
 from primes import primes
+from train_stations import trains
 
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")
@@ -17,3 +18,4 @@ async def home(request: Request):
 
 
 app.include_router(primes.router)
+app.include_router(trains.router)
