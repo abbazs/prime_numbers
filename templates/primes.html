@@ -16,11 +16,14 @@
     </div>
     <div class="container">
         <!-- List prime numbers -->
-        <input type="number" x-model="start" placeholder="Start number" title="Start number">
-        <input type="number" x-model="end" placeholder="End number" title="End number">
+        <input type="number" min="1" x-model="start" placeholder="Start number" title="Start number">
+        <input type="number" :min="start+1" x-model="end" placeholder="End number" title="End number">
         <button @click="listPrimes"><span>List Primes</span></button>
-        <template x-if="primes.length > 0">
-            <p>Primes: <span x-text="primes.join(', ')"></span></p>
+        <template x-if="primes.values.length > 0">
+            <p>Primes: <span x-text="primes.values.join(', ')"></span></p>
+        </template>
+        <template x-if="primes.error.length > 0">
+            <p><span x-text="primes.error" style="color: red; font-weight: bold;"></span></p>
         </template>
     </div>
     <div class="container">
@@ -43,7 +46,7 @@
             end: '',
             factorNum: '',
             isPrime: null,
-            primes: [],
+            primes: { values: [], error: "" },
             primeFactors: [],
             checkPrime() {
                 axios.get(`${this.route}/is_prime/${this.num}`)
@@ -52,10 +55,16 @@
                     });
             },
             listPrimes() {
-                axios.get(`${this.route}/list_of_primes/${this.start}/${this.end}`)
-                    .then(response => {
-                        this.primes = response.data.list_of_primes;
-                    });
+                if (this.end > this.start) {
+                    axios.get(`${this.route}/list_of_primes/${this.start}/${this.end}`)
+                        .then(response => {
+                            this.primes.values = response.data.list_of_primes;
+                        });
+                    this.primes.error = "";
+                }
+                else {
+                    this.primes.error = `End value ${this.end} must be greater than start value ${this.start}.`
+                }
             },
             getPrimeFactors() {
                 axios.get(`${this.route}/prime_factors/${this.factorNum}`)
