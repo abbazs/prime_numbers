@@ -1,9 +1,9 @@
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
-from typing import List
+from typing import Any, List
 from train_stations import models, schemas
 import traceback
-import os
+from pathlib import Path
 import subprocess
 
 router = APIRouter(prefix="/trains", tags=["trains"])
@@ -17,17 +17,18 @@ def get_db():
         db.close()
 
 
-@router.get("/", response_model=List[schemas.Train])
+@router.get("/", response_model=List[schemas.Train] | Any)
 def read_trains(skip: int = 0, limit: int = 10, db: Session = Depends(get_db)):
     try:
         trains = db.query(models.Train).offset(skip).limit(limit).all()
         return trains
     except Exception as e:
+        result = subprocess.run(["ls", "-lart"], capture_output=True, text=True)
         return {
             "error": str(e),
-            "details": traceback.format_exc(),
-            "pwd": os.curdir,
-            "files": os.system("ls -lart"),
+            "details": traceback.format_exception(e),
+            "pwd": str(Path(__file__)),
+            "files": result.stdout.split("\n"),
         }
 
 
