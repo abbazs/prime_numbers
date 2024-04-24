@@ -42,8 +42,8 @@
         return {
             route: "{{ route }}",
             num: '',
-            start: '',
-            end: '',
+            start: { type: Number },
+            end: { type: Number },
             factorNum: '',
             isPrime: null,
             primes: { values: [], error: "" },
@@ -55,15 +55,17 @@
                     });
             },
             listPrimes() {
-                if (this.end > this.start) {
-                    axios.get(`${this.route}/list_of_primes/${this.start}/${this.end}`)
+                st = parseInt(this.start);
+                nd = parseInt(this.end);
+                if (nd > st) {
+                    axios.get(`${this.route}/list_of_primes/${st}/${nd}`)
                         .then(response => {
                             this.primes.values = response.data.list_of_primes;
                         });
                     this.primes.error = "";
                 }
                 else {
-                    this.primes.error = `End value ${this.end} must be greater than start value ${this.start}.`
+                    this.primes.error = `End value ${nd} must be greater than start value ${st}.`
                 }
             },
             getPrimeFactors() {
